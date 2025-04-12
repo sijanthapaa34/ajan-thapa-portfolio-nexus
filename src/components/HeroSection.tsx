@@ -106,7 +106,7 @@ const HeroSection: React.FC = () => {
             <div className="relative w-64 h-64 md:w-80 md:h-80">
               <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary to-blue-500 animate-pulse-glow"></div>
               <img 
-                src="/lovable-uploads/354e45aa-c9a2-427b-8eac-0a5aa5411d3c.png" 
+                src="/lovable-uploads/494a3c31-2ea5-4b86-85cc-feaefdfe2ad0.png" 
                 alt="Sijan Thapa" 
                 className="w-full h-full object-cover rounded-full border-4 border-white dark:border-gray-800 p-1 relative z-10"
               />

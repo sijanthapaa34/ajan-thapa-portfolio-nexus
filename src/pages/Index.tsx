@@ -16,7 +16,7 @@ const Index = () => {
   useEffect(() => {
     const preloadImages = () => {
       const imageUrls = [
-        "/lovable-uploads/354e45aa-c9a2-427b-8eac-0a5aa5411d3c.png",
+        "/lovable-uploads/494a3c31-2ea5-4b86-85cc-feaefdfe2ad0.png", // Updated profile image
         "https://images.unsplash.com/photo-1580048915913-4f8f5cb481c4?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&w=500",
         "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&w=500",
         "https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&w=500",
