@@ -77,7 +77,9 @@ const HeroSection: React.FC = () => {
               transition={{ delay: 1 }}
             >
               <a 
-                href="#" 
+                href="/sijan-thapa-resume.pdf" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors"
               >
                 <FiDownload /> Download Resume
