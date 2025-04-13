@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/ajan-thapa-portfolio-nexus/",
+  base: "/",
   server: {
     host: "::",
     port: 8080,
