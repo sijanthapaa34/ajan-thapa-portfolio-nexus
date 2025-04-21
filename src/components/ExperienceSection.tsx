@@ -20,9 +20,9 @@ const experiences = [
     description: "Integrated React frontends with secure Spring Boot backends; built responsive UIs with modern JavaScript frameworks while maintaining robust backend architecture and security practices."
   },
   {
-    title: "Currently Seeking Opportunities",
-    subtitle: "Open to Internships",
-    description: "Actively looking for internships in Java development. Motivated to contribute and learn in a professional environment to expand my technical skills and gain industry experience."
+    title: "Actively Exploring Opportunities",
+    subtitle: "Open to Industrial Training & Developer Roles",
+    description: "Eager to contribute to impactful projects in Java development through hands-on experience in a real-world environment. Seeking opportunities that foster growth, encourage innovation, and help build a solid foundation for a professional software engineering career."
   }
 ];
 
