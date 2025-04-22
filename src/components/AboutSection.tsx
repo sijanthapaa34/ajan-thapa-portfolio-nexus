@@ -54,7 +54,7 @@ const AboutSection: React.FC = () => {
               I am a dedicated Bachelor of Information Technology (BIT) student with a strong passion for Java development. With solid problem-solving skills and a constant drive to learn emerging technologies, I enjoy tackling challenges and refining my skills to stay current in the ever-evolving field of software development.
             </p>
             <p className="text-lg leading-relaxed">
-              I am eager to apply my technical knowledge in a practical setting and contribute to impactful projects through an internship opportunity.
+            Passionate about turning ideas into solutions, I’m ready to bring my technical skills to dynamic projects and grow through hands-on experience.
             </p>
           </motion.div>
 
