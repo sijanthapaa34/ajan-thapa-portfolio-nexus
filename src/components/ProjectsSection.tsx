@@ -6,69 +6,16 @@ import { useInView } from 'react-intersection-observer';
 const projects = [
   {
     id: 1,
-    title: "Bank Management System",
-    description: "Modern banking platform with secure authentication, transaction management, and user dashboard",
-    status: "In Progress",
-    tech: ["Java", "Spring Boot", "JPA", "MySQL", "React"],
-    image: "https://images.unsplash.com/photo-1580048915913-4f8f5cb481c4?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&w=500"
-  },
-  {
-    id: 2,
-    title: "Class Scribe",
-    description: "Educational platform for sharing and organizing class notes and resources",
+    title: "AI-Powered Personal Finance Manager",
+    description:
+      "Developed a secure RESTful application to manage personal finances with AI-driven insights. Integrated Cohere’s LLM to provide personalized spending analysis and financial advice. Key features include JWT authentication, smart transaction categorization, and MySQL-backed data storage.",
     status: "Completed",
-    tech: ["Java", "Spring Boot", "JPA", "MySQL", "React"],
-    image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&w=500"
-  },
-  {
-    id: 3,
-    title: "Job Listing Web App",
-    description: "Platform connecting job seekers with employers with advanced filtering",
-    status: "Completed",
-    tech: ["Java", "Spring Boot", "JPA", "MySQL", "React"],
-    image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&w=500"
-  },
-  {
-    id: 4,
-    title: "Employee Management System",
-    description: "Comprehensive HR tool for managing employee data, attendance, and performance",
-    status: "Completed",
-    tech: ["Java", "Spring Boot", "JPA", "MySQL", "React"],
-    image: "https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&w=500"
-  },
-  {
-    id: 5,
-    title: "Weather App",
-    description: "Real-time weather forecasting application with location tracking",
-    status: "Completed",
-    tech: ["Java", "Spring Boot", "JPA", "MySQL", "React"],
-    image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&w=500"
-  },
-  {
-    id: 6,
-    title: "Bank Management System (Legacy)",
-    description: "Console-based banking application with core account management features",
-    status: "Completed",
-    tech: ["Java", "Hibernate ORM", "MySQL"],
-    image: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&w=500"
-  },
-  {
-    id: 7,
-    title: "Student Management System",
-    description: "Academic record management system with grade tracking and reporting",
-    status: "Completed",
-    tech: ["Java", "JDBC", "MySQL"],
-    image: "https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&w=500"
-  },
-  {
-    id: 8,
-    title: "Real Estate E-commerce",
-    description: "Platform for buying, selling, and renting properties with search functionality",
-    status: "Completed",
-    tech: ["Java", "Servlet", "JSP", "JDBC", "MySQL"],
-    image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&w=500"
+    tech: ["Java", "Spring Boot", "Spring Security 6", "Cohere (LLM)", "MySQL"],
+    image:
+    "https://images.unsplash.com/photo-1580048915913-4f8f5cb481c4?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&w=500"
   }
 ];
+
 
 const ProjectsSection: React.FC = () => {
   const [ref, inView] = useInView({

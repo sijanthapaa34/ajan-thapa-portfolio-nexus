@@ -5,9 +5,10 @@ import { useInView } from 'react-intersection-observer';
 
 const experiences = [
   {
-    title: "Spring Boot & RESTful API Development",
-    subtitle: "Backend Development Expertise",
-    description: "Hands-on experience building scalable backend services using Spring Boot and designing RESTful APIs with proper layering, validations, and secure endpoints. Proficient in API versioning, request/response optimization, and exception handling."
+    title: "Spring Boot & Secure RESTful API Development",
+    subtitle: "Backend Security & API Design",
+    description:
+      "Hands-on experience building scalable and secure backend services using Spring Boot. Implemented RESTful APIs with layered architecture, request/response validation, JWT-based authentication, and role-based access control. Proficient in API versioning, HTTPS enforcement, and centralized exception handling to ensure robustness and compliance with best practices."
   },
   {
     title: "Hibernate & Database Management",
